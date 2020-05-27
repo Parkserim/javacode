@@ -1,0 +1,15 @@
+package exam.operator;
+
+import java.util.Scanner;
+
+public class ContionExample {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("총점을 입력하세요 : ");
+		int sum=scan.nextInt();
+		String t= sum>=80 ? "합격":"불합격";
+		System.out.println("결과는 "+ t + " 입니다.");
+	}
+
+}
+ 
