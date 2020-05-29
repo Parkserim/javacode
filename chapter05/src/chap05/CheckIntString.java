@@ -1,3 +1,4 @@
+package chap05;
 import java.util.Scanner;
 
 public class CheckIntString {
